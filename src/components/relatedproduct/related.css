@@ -1,0 +1,11 @@
+.relatedproduct{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

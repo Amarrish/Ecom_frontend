@@ -1,0 +1,28 @@
+.collection-container{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collectionitems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.collection-container hr{
+    width:300px;
+justify-content: center;
+text-align: center;
+height: 4px;
+background-color: black;
+border: none;
+border-radius: 3px;
+}

@@ -1,0 +1,49 @@
+.item-container{
+    width: 250px;
+    height: 350px;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+background-color: rgb(241, 241, 241);
+
+}
+.itemimg{
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.itemimg img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.itemname{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.itemprice{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    
+}
+.itemprice .newprice{
+    color: rgb(0, 0, 0);
+    margin-right: 4px;
+}
+.itemprice .oldprice{
+    color: #858585;
+    text-decoration-line: line-through;
+    color: red;
+}
+.item-container:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}

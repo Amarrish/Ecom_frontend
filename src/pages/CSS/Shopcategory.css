@@ -1,0 +1,90 @@
+.shopcategory-container{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.shopcategory-container .banner{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(223, 178, 243), rgb(183, 211, 248) 60%);
+    padding: 5px;
+   
+}
+.lsection{
+    flex: 1;
+    margin: 0 0 0 20px;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+.lsection button{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: #ffffff;
+}
+.rsection{
+    flex: 1;
+    margin: 0 0 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rsection img{
+    width: 50%;
+    height: 380px;
+}
+
+.sortindex{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.sortoption{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.sortoption button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    font-weight: 600;
+}
+hr{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.cateproduct{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.explorebtn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.explorebtn button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: #ffffff;
+    cursor: pointer;
+}
+.explorebtn button i{
+    color: #ffffff;
+}

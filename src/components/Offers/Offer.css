@@ -1,0 +1,52 @@
+.offer-container{
+    width: 70%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: .5px solid #e0e0e0;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, violet, rgb(211, 135, 255) 40%);
+}
+
+.leftoffer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    margin-left: 10px;
+}
+.leftoffer p{
+    font-size: 12px;
+}
+.leftoffer button{
+    width: fit-content;
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 2px;
+}
+.rightoffer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.rightoffer img{
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .rightoffer img{
+        width: 200px;
+        height: 50%;
+    }
+}

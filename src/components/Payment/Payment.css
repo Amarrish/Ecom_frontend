@@ -1,0 +1,37 @@
+.payment-container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+form{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(49, 131, 131);
+    border-radius: 5px;
+}
+.inputlabel{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+ input{
+    padding: 5px;
+    width: 70%;
+    justify-content: end;
+    align-items: end;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+label{
+    width: 30%;
+    color: white;
+}
+.card label{
+    width: 30%;
+}
+.payment-container form .paybtn{
+    justify-content: center;
+    margin: auto;
+}

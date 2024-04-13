@@ -1,0 +1,120 @@
+.prdtdisply{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid black;
+}
+.leftsection{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    height: 100%;
+    background-color: aquamarine;
+}
+.imgsection{
+    display: flex;
+    flex-direction: column;
+}
+.smallimg{
+    width: 100px;
+    height: 110px;
+
+}
+.bigimgsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigimgsection .bigimg{
+    height: 450px;
+    width: 200px;
+    padding: 5px;
+  
+}
+
+.rightsection{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.rates{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+   margin-right: 3px;
+   gap: 10px;
+  
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.oldprice{
+    color: red;
+    text-decoration: line-through;
+    margin: 0 4px;
+}
+.desc{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.size{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.size h4{
+    text-decoration: underline 2px solid goldenrod;
+}
+.selectsize{
+    display: flex;
+    flex-direction: row;
+}
+.selectsize button{
+    margin: 2px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: goldenrod;
+    color: white;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.categories span{
+    font-weight: 700;
+}
+.cart{
+    justify-content: start;
+    display: flex;
+    padding: 5px;
+    margin-top: 8px;
+}
+.cartbtns{
+    padding: 10px;
+    border: none ;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+}
