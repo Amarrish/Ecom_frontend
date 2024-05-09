@@ -7,7 +7,7 @@ import img6 from './bluejeans6.jpg';
 
 const products = [
     {
-        id:1,
+        id:41,
         img:img1,
         name:'stylishred',
         newprice:100.12,

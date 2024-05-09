@@ -20,7 +20,7 @@ const Shopcontextshare = ({children}) =>{
    const Removecart = (ItemId)=>{
     setCartitem((prev)=>({...prev,[ItemId]:prev[ItemId]-1}))
    }
-   
+
     const [cartitem,setCartitem] = useState(getDefaultcart());
     const [contextvalue,setContextvalue] = useState(allproduct);
 

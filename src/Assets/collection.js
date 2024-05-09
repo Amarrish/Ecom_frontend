@@ -7,42 +7,42 @@ import img6 from './women1.jpg';
 
 const collections = [
     {
-        id:1,
+        id:31,
         img:img1,
         name:'stylishred',
         newprice:100.12,
         oldprice:125.90
     },
     {
-        id:2,
+        id:32,
         img:img2,
         name:'stylishred',
         newprice:100.12,
         oldprice:125.90
     },
     {
-        id:3,
+        id:33,
         img:img3,
         name:'stylishred',
         newprice:100.12,
         oldprice:125.90
     },
     {
-        id:4,
+        id:34,
         img:img4,
         name:'stylishred',
         newprice:100.12,
         oldprice:125.90
     },
     {
-        id:5,
+        id:35,
         img:img5,
         name:'stylishred',
         newprice:100.12,
         oldprice:125.90
     },
     {
-        id:6,
+        id:36,
         img:img6,
         name:'stylishred',
         newprice:100.12,
